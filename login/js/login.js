@@ -30,6 +30,13 @@ function Login() {
         //Field
         window.location = "main.html";
     }
+    else if (sevengreenid.value == "a" &&
+        username.value == "a" &&
+        email.value == "a@gmail.com" &&
+        password.value == "a") {
+        //Field
+        window.location = "main.html";
+    }
     else
     {
         invalid.classList.add("live");
