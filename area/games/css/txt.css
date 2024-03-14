@@ -1,0 +1,15 @@
+.bgd .games .area .container .gameslot h1{
+    margin: 2vw;
+    width: 30%;
+    height: 100%;
+    text-align: left;
+    float: left;
+}
+.bgd .games .area .container .gameslot P{
+    margin: 2vw;
+    width: auto;
+    height: 100%;
+    color: white;
+    font-size: 1vw;
+    float: left;
+}

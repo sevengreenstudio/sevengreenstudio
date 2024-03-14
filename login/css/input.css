@@ -1,0 +1,18 @@
+input{
+    margin: 1vw;
+    margin-left: 3vw;
+    width: 80%;
+    height: 2.5vw;
+    background-color: rgba(0, 0, 0, 0.635);
+    color: white;
+    font-size: 0.8vw;
+    text-align: center;
+    border-radius: 0.5vw;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.01vw;
+    float: left;
+}
+input:hover{
+    box-shadow: 0px 5px 5px rgb(0, 26, 255);
+}

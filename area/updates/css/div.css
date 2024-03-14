@@ -1,0 +1,29 @@
+.bgd .updates .area .news {
+    margin: 5%;
+    margin-top: 8%;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(11, 11, 11);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(58, 58, 58);
+    position: absolute;
+    float: left;
+    animation-name: divlighting;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.bgd .home .area .area .news {
+    margin: 2.5vw;
+    margin-top: 0px;
+    width: 95%;
+    height: 30vw;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: rgb(30, 30, 30);
+    border-radius: 1vw;
+    border-width: 0.2vw;
+    position: absolute;
+}

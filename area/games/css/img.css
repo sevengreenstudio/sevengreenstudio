@@ -1,0 +1,7 @@
+.bgd .games .area .container .gameslot img{
+    margin: 1vw;
+    width: 9%;
+    height: 80%;
+    border-radius: 10px;
+    float: left;
+}

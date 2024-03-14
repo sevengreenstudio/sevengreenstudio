@@ -1,0 +1,123 @@
+.bgd .updates .area .news .game_1 {
+    margin: 5%;
+    margin-top: 0px;
+    width: 88%;
+    height: 60%;
+    border-radius: 10px;
+    opacity: 1.0;
+    position: relative;
+    float: left;
+    animation-name: news_anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.bgd .updates .area .news .game_2 {
+    margin: 5%;
+    margin-top: 0px;
+    width: 88%;
+    height: 60%;
+    border-radius: 10px;
+    opacity: 1.0;
+    position: relative;
+    float: left;
+    animation-name: news_anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.bgd .updates .area .news .game_3 {
+    margin: 5%;
+    margin-top: 0px;
+    width: 88%;
+    height: 60%;
+    border-radius: 10px;
+    opacity: 1.0;
+    position: relative;
+    float: left;
+    animation-name: news_anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.bgd .updates .area .news .game_4 {
+    margin: 5%;
+    margin-top: 0px;
+    width: 88%;
+    height: 60%;
+    border-radius: 10px;
+    opacity: 1.0;
+    position: relative;
+    float: left;
+    animation-name: news_anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.bgd .updates .area .news .game_5 {
+    margin: 5%;
+    margin-top: 0px;
+    width: 88%;
+    height: 60%;
+    border-radius: 10px;
+    opacity: 1.0;
+    position: relative;
+    float: left;
+    animation-name: news_anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.bgd .updates .area .news .game_1 {
+    display: none;
+}
+
+.bgd .updates .area .news .game_2 {
+    display: none;
+}
+
+.bgd .updates .area .news .game_3 {
+    display: none;
+}
+
+.bgd .updates .area .news .game_4 {
+    display: none;
+}
+
+.bgd .updates .area .news .game_5 {
+    display: none;
+}
+
+.bgd .updates .area .news .game_1.live {
+    display: block;
+}
+
+.bgd .updates .area .news .game_2.live {
+    display: block;
+}
+
+.bgd .updates .area .news .game_3.live {
+    display: block;
+}
+
+.bgd .updates .area .news .game_4.live {
+    display: block;
+}
+
+.bgd .updates .area .news .game_5.live {
+    display: block;
+}
+
+@keyframes news_anim {
+    0% {
+        opacity: 0.0;
+    }
+}
+
+.bgd .home .area .area .news .game_1 img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+}

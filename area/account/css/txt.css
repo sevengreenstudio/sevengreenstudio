@@ -1,0 +1,19 @@
+.bgd .account .area .container h1{
+    margin: 1.5vw;
+    margin-bottom: 5vw;
+    width: 100%;
+    font-size: 2vw;
+    text-align: center;
+    float: left;
+}
+.bgd .account .area .container .primary_field{
+    width: 8vw;
+}
+.bgd .account .area .container p{
+    margin: 1vw;
+    color: white;
+    font-size: 0.8vw;
+    font-family: 'Protest Revolution';
+    text-align: left;
+    float: left;
+}

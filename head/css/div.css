@@ -1,0 +1,31 @@
+.head{
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0 -10px 30px cyan;
+    position: fixed;
+    animation-name: head_anim;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes head_anim{
+    0%{
+        box-shadow: 0 -10px 40px cyan;
+    }
+    33.5%{
+        box-shadow: 0 -10px 40px rgb(0, 255, 0);
+    }
+    67%{
+        box-shadow: 0 -10px 60px blue;
+    }
+}
+.head .lefthead{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.head .righthead{
+    width: 50%;
+    height: 100%;
+    float: right;
+}

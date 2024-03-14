@@ -1,0 +1,21 @@
+.bgd .head .lefthead input{
+    margin: 1.3vw;
+    margin-left: 25vw;
+    width: 20vw;
+    height: 1.8vw;
+    background-color: rgba(0, 0, 0,0.2);
+    color: white;
+    font-size: 0.8vw;
+    border-style: solid;
+    border-radius: 0.3vw;
+    border-width: 0.1vw;
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: -5px 5px 10px black;
+    position: absolute;
+    transition: 0.5s;
+}
+.bgd .head .lefthead input:hover{
+    width: 22vw;
+    box-shadow: -5px 5px 5px black;
+}

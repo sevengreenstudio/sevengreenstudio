@@ -1,0 +1,18 @@
+.head .lefthead img{
+    margin: 0.5vw;
+    width: 3.5vw;
+    rotate: 0rad;
+    float: left;
+    transition: 0.2s;
+    position: absolute;
+    cursor: pointer;
+}
+.head .lefthead img:hover{
+    width: 5vw;
+    rotate: 6.28rad;
+    transition: 0.2s;
+}
+.head .lefthead img:active{
+    width: 3.5;
+    rotate: 20rad;
+}

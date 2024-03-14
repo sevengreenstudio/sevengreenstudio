@@ -1,0 +1,53 @@
+.home .area h1{
+    margin: 0;
+    margin-top: 12vw;
+    width: 100vw;
+    height: auto;
+    color: rgb(0, 255, 0);
+    text-align: center;
+    font-family: 'Protest Revolution';
+    font-size: 8vw;
+    position: absolute;
+    opacity: 1.0;
+    animation-name: nameanim;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes nameanim{
+    0%{
+        opacity: 0.0;
+    }
+    100%{
+        opacity: 1.0;
+    }
+}
+
+.home .area label{
+    margin: 23vw;
+    margin-left: 70vw;
+    width: 100vw;
+    height: auto;
+    color: rgb(0, 255, 0);
+    font-size: 2vw;
+    position: absolute;
+    float: right;
+    animation-name: nameanim;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+
+.home .area .area h2{
+    margin: 2vw;
+    margin-left: 0px;
+    width: 100vw;
+    height: auto;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.home .area .area p{
+    width: 100vw;
+    color: white;
+    text-align: center;
+}

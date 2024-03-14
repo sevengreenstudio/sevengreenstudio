@@ -1,0 +1,11 @@
+@keyframes divlighting{
+    0%{
+        box-shadow: 0 0 15px rgb(0, 255, 0);
+    }
+    50%{
+        box-shadow: 0 0 15px rgb(0, 21, 255);
+    }
+    100%{
+        box-shadow: 0 0 15px rgb(0, 255, 0);
+    }
+}

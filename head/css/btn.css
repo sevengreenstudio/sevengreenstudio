@@ -1,0 +1,32 @@
+.head .righthead button{
+    margin: 1.2vw;
+    margin-right: 2vw;
+    margin-left: 0px;
+    width: 8vw;
+    height: 2vw;
+    background-color: rgb(0, 255, 0);
+    color: black;
+    font-family: 'Protest Revolution';
+    font-weight: bolder;
+    font-size: 0.8vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor:pointer;
+    float: left;
+    transition: 0.5s;
+}
+.head .righthead button:hover{
+    height: 2.5vw;
+    background-color: black;
+    color: white;
+    border-color: rgb(0, 255, 0);
+    border-radius: 20px;
+    box-shadow: -5px 5px 10px black;
+    transition: 0.5s;
+}
+.head .righthead button:active{
+    background-color: rgb(0, 255, 0);
+    color: black;
+}

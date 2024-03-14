@@ -1,0 +1,47 @@
+.area{
+    margin: 10vw;
+    margin-top: 3vw;
+    margin-left: 35vw;
+    width: 30vw;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.406);
+    border-radius: 1vw;
+    float: left;
+    animation-name: divanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.area div{
+    opacity: 1.0;
+    animation-name: divin;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes divin{
+    0%{
+        opacity: 0.0;
+    }
+}
+.login.live{
+    display: block;
+}
+.login{
+    display: none;
+}
+.register.live{
+    display: block;
+}
+.register{
+    display: none;
+}
+@keyframes divanim{
+    0%{
+        box-shadow: 0 0 10px rgb(0, 255, 0);
+    }
+    50%{
+        box-shadow: 0 0 10px rgb(0, 26, 255);
+    }
+    100%{
+        box-shadow: 0 0 10px rgb(0, 255, 0);
+    }
+}

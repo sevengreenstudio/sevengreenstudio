@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body,
+    html {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .bgd {
+        background: url(Main/bgd/loginpage.png);
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Protest Revolution';
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+</style>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <title>SevenGreen ID Login</title>
+
+    <link rel="stylesheet" href="login/css/div.css">
+    <link rel="stylesheet" href="login/css/txt.css">
+    <link rel="stylesheet" href="login/css/input.css">
+    <link rel="stylesheet" href="login/css/btn.css">
+    <link rel="stylesheet" href="login/css/img.css">
+</head>
+
+<body>
+    <div class="bgd">
+        <h1 style="
+        margin: 0;
+        margin-top: 3vw;
+        color: rgb(0, 255, 0);
+            ">SevenGreenID</h1>
+        <div class="area">
+            <div class="login live">
+                <h1>Login</h1>
+                <input class="sevengreenid" type="text" placeholder="SevenGreenID">
+                <input class="username" type="text" placeholder="username">
+                <input class="email" type="text" placeholder="E-Mail">
+                <input class="password" type="text" placeholder="password">
+                <button data-id="login" class="btn">Login</button>
+                <p data-id="toregister">Create SevenGreenID</p>
+                <p class="invalid">Invalid</p>
+            </div>
+            <div class="register">
+                <h1>Register</h1>
+                <input type="text" placeholder="username" required>
+                <input type="text" placeholder="dd/mm/yyyy" required>
+                <input type="text" placeholder="E-mail" required>
+                <input type="text" placeholder="sevengreenid" required>
+                <input type="text" placeholder="Country" required>
+                <input type="text" placeholder="password" required>
+                <button data-id="register" class="btn">Register</button>
+                <p data-id="tologin">Login SevenGreenID</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="login/js/switching.js"></script>
+<script src="login/js/login.js"></script>
+
+</html>

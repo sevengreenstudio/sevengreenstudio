@@ -1,0 +1,20 @@
+.bgd .account .area .container .photoarea img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.bgd .account .area .container .photoarea img:hover{
+    width: 120%;
+    height: 120%;
+}
+.bgd .account .area .container .filled img{
+    margin: 0.65vw;
+    width: 1.5vw;
+    cursor: pointer;
+    float: right;
+    transition: 0.2s;
+}
+.bgd .account .area .container .filled img:hover{
+    width: 1.6vw;
+}

@@ -1,0 +1,27 @@
+.btn{
+    margin: 1vw;
+    margin-left: 3vw;
+    margin-bottom: 2vw;
+    width: 81%;
+    height: 2.8vw;
+    background-color: rgba(0, 0, 0, 0.635);
+    color: white;
+    font-size: 0.8vw;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0.5vw;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.01vw;
+    cursor: pointer;
+    float: left;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(51, 255, 0);
+    color: black;
+    box-shadow: 0 0 10px rgb(0, 255, 0);
+    box-shadow: 0 0 15px rgb(0, 255, 0);
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+}

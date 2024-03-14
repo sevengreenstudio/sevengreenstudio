@@ -1,0 +1,40 @@
+.bgd .account .area .container{
+    margin: 8vw;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 40vw;
+    background-color: transparent;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(30, 30, 30);
+    float: left;
+    animation-name: divlighting;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.bgd .account .area .container .photoarea{
+    margin: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 100vw;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(30, 30, 30);
+    border-width: 3px;
+    float: left;
+}
+.bgd .account .area .container .filled{
+    margin: 5vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 0px;
+    width: 60vw;
+    height: 3vw;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(30, 30, 30);
+    float: left;
+}
