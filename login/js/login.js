@@ -22,6 +22,14 @@ let loadedsevengreeid = Math.floor((Math.random() * 9999999999) + 1111111111);
 
 sevengreenid_field_register.value = loadedsevengreeid;
 
+var found = false;
+
+//Store
+const store_username = [];
+const store_sevengreenid = [];
+const store_email = [];
+const store_password = [];
+
 area.addEventListener("click", event => {
     const value = event.target.dataset.id;
     if (value === "login") {
@@ -29,22 +37,15 @@ area.addEventListener("click", event => {
     }
 });
 
-function Login() {
-    if (sevengreenid.value == "3468149316" &&
-        username.value == "ajaysaagar" &&
-        email.value == "kalpanaajaysagar2004@gmail.com" &&
-        password.value == "2525") {
-        //Field
-        window.location = "main.html";
-    }
-    else
-    {
-        invalid.classList.add("live");
-        setTimeout("out()",5000);
-    }
+function LoadNewSevenGreenID()
+{
+    
 }
 
-function out()
+function Login()
 {
+}
+
+function out() {
     invalid.classList.remove("live");
 }

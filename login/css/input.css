@@ -16,6 +16,9 @@ input{
 input:hover{
     box-shadow: 0px 5px 5px rgb(0, 26, 255);
 }
+input:nth-child(5){
+    pointer-events: none;
+}
 select{
     margin: 1vw;
     margin-left: 3vw;
