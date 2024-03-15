@@ -33,7 +33,7 @@ const store_password = [];
 area.addEventListener("click", event => {
     const value = event.target.dataset.id;
     if (value === "login") {
-        Login();
+        LoadNewSevenGreenID();
     }
 });
 
