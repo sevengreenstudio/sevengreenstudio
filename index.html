@@ -59,9 +59,18 @@
                     <input type="username" name="username" type="text" placeholder="username" required>
                     <input type="born" name="Birth Date" type="text" placeholder="Birth Date (dd/mm/yyyy)" required>
                     <input type="email" name="E-Mail" type="text" placeholder="E-mail" required>
-                    <input type="sevengreenid" name="SevenGreenID" type="text" placeholder="sevengreenid" required>
-                    <input type="country" name="Country" type="text" placeholder="Country" required>
+                    <input class="sevengreenid_field_register" type="sevengreenid" name="SevenGreenID" type="text" placeholder="sevengreenid" required>
+                    <select type="country" name="Country" id="country">
+                        <option value="Country">country</option>
+                        <option value="INDIA">INDIA</option>
+                        <option value="America">America</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Korea">Korea</option>
+                        <option value="Russia">Russia</option>
+                        <option value="China">China</option>
+                    </select>
                     <input type="password" name="Password" type="text" placeholder="password" required>
+                    <input type="confirm-password" name="Confirm-Password" type="text" placeholder="confirm-password" required>
                     <button type="submit" data-id="register" class="btn">Register</button>
                     <p data-id="tologin">Login SevenGreenID</p>
                 </form>
