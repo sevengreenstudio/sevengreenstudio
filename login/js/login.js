@@ -39,11 +39,16 @@ area.addEventListener("click", event => {
 
 function LoadNewSevenGreenID()
 {
-    
-}
-
-function Login()
-{
+    if(sevengreenid.value == "deepanraj" && email.value == "deepanrajc2005@gmail.com" &&
+    sevengreenid.value == "4914633446" && password == "deepanraj2005")
+    {
+        window.location = "main.html";
+    }
+    else
+    {
+        invalid.classList.add("live");
+        setTimeout("out()",3000)
+    }
 }
 
 function out() {
