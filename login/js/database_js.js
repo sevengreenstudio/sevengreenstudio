@@ -14,16 +14,6 @@ function database() {
             btn_login.innerHTML = "INVALID User or password";
         }
     }
-    //SevenGreenID
-    else if (sevengreenid == "9698758994") {
-        if (username == "kalpana" && password == "2025") {
-            btn_login.innerHTML = "Loading...";
-            window.location = "main.html";
-        }
-        else {
-            btn_login.innerHTML = "INVALID User or password";
-        }
-    }
     //Else Part
     else {
         btn_login.innerHTML = "INVALID User or password";
