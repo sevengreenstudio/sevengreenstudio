@@ -11,6 +11,12 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+.getted.live{
+    display: block;
+}
+.getted{
+    display: none;
+}
 .area div{
     opacity: 1.0;
     animation-name: divin;

@@ -1,56 +1,65 @@
-const area = document.querySelector(".area");
+//Login Page
+const login_sevengreenid = document.querySelector(".login_sevengreenid");
+const login_username = document.querySelector(".login_username");
+const login_password = document.querySelector(".login_password");
 
-//Login
-const sevengreenid = document.querySelector(".sevengreenid");
-const username = document.querySelector(".username");
-const email = document.querySelector(".email");
-const password = document.querySelector(".password");
+//buttons
+const btn_findid = document.querySelector(".btn_findid");
+const btn_login = document.querySelector(".btn_login");
+
+//getted
+const getted = document.querySelector(".getted");
 
 const invalid = document.querySelector(".invalid");
+//SevenGreenID
+let sevengreenID = [];
+sevengreenID[0] = "6385776502";
+sevengreenID[1] = "9698758994";
 
-//Main
-const username_field = document.querySelector(".username_field");
-const sevengreenid_field = document.querySelector(".sevengreenid_field");
-const born_field = document.querySelector(".born_field");
-const email_field = document.querySelector(".email_field");
-const country_field = document.querySelector(".country_field");
-
-//Register
-const sevengreenid_field_register = document.querySelector(".sevengreenid_field_register");
-
-let loadedsevengreeid = Math.floor((Math.random() * 9999999999) + 1111111111);
-
-sevengreenid_field_register.value = loadedsevengreeid;
-
-var found = false;
-
-//Store
-const store_username = [];
-const store_sevengreenid = [];
-const store_email = [];
-const store_password = [];
-
-area.addEventListener("click", event => {
-    const value = event.target.dataset.id;
-    if (value === "login") {
-        LoadNewSevenGreenID();
-    }
-});
-
-function LoadNewSevenGreenID()
-{
-    if(sevengreenid.value == "deepanraj" && email.value == "deepanrajc2005@gmail.com" &&
-    sevengreenid.value == "4914633446" && password == "deepanraj2005")
-    {
-        window.location = "main.html";
-    }
-    else
-    {
-        invalid.classList.add("live");
-        setTimeout("out()",3000)
+function getdata() {
+    for (let i = 0; i <= sevengreenID.length; i++) {
+        if (login_sevengreenid.value == sevengreenID[i]) {
+            getted.classList.add("live");
+            btn_findid.classList.remove("live");
+            btn_login.classList.add("live");
+            login_sevengreenid.style.color = "gray";
+            invalid.classList.add("live");
+        }
+        if (i == sevengreenID.length) {
+            btn_findid.innerHTML = "Not Found";
+        }
     }
 }
 
-function out() {
-    invalid.classList.remove("live");
+function gettedtofindid() {
+    //gettedtofindid
+    if (getted.classList = "getted live") {
+        getted.classList.remove("live");
+        btn_login.classList.remove("live");
+        btn_findid.classList.add("live");
+        btn_findid.innerHTML = "Find-ID";
+        invalid.classList.remove("live");
+    }
+}
+
+function resetloginbutton()
+{
+    btn_login.innerHTML = "Login";
+}
+
+function process() {
+    const username = login_username.value;
+    const password = login_password.value;
+
+    if(login_sevengreenid.value == "6385776502")
+    {
+        if(username == "ajaysaagar" && password == "2024")
+        {
+            window.location = "main.html";
+        }
+        else
+        {
+            btn_login.innerHTML = "INVALID User or password";
+        }
+    }
 }

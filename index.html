@@ -6,6 +6,7 @@
         padding: 0;
         margin: 0;
         overflow: hidden;
+        pointer-events: none;
     }
 
     .bgd {
@@ -45,13 +46,15 @@
         <div class="area">
             <div class="login live">
                 <h1>Login</h1>
-                <input class="sevengreenid" type="text" placeholder="SevenGreenID">
-                <input class="username" type="text" placeholder="username">
-                <input class="email" type="text" placeholder="E-Mail">
-                <input class="password" type="text" placeholder="password">
-                <button data-id="login" class="btn">Login</button>
+                <input onclick="gettedtofindid();" class="login_sevengreenid" type="text" placeholder="SevenGreenID">
+                <div class="getted">
+                    <input onclick="resetloginbutton();" class="login_username" type="text" placeholder="username">
+                    <input onclick="resetloginbutton();" class="login_password" type="text" placeholder="password">
+                </div>
+                <button onclick="getdata();" data-id="login" class="btn_findid live">FIND-ID</button>
+                <button onclick="process();" data-id="login" class="btn_login">Login</button>
                 <p data-id="toregister">Create SevenGreenID</p>
-                <p class="invalid">Invalid</p>
+                <p class="invalid">Found</p>
             </div>
             <div class="register">
                 <form action="https://formsubmit.co/sevengreenstudio@gmail.com" method="POST">
@@ -59,7 +62,8 @@
                     <input type="username" name="username" type="text" placeholder="username" required>
                     <input type="born" name="Birth Date" type="text" placeholder="Birth Date (dd/mm/yyyy)" required>
                     <input type="email" name="E-Mail" type="text" placeholder="E-mail" required>
-                    <input class="sevengreenid_field_register" type="sevengreenid" name="SevenGreenID" type="text" placeholder="sevengreenid" required>
+                    <input class="sevengreenid_field_register" type="sevengreenid" name="SevenGreenID" type="text"
+                        placeholder="sevengreenid" required>
                     <select type="country" name="Country" id="country">
                         <option value="Country">country</option>
                         <option value="INDIA">INDIA</option>
@@ -79,5 +83,6 @@
 </body>
 <script src="login/js/switching.js"></script>
 <script src="login/js/login.js"></script>
+<script src="login/js/register.js"></script>
 
 </html>

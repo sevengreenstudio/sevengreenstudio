@@ -14,31 +14,32 @@ p {
     margin-bottom: 2vw;
     width: 100%;
     color: blue;
-    font-size: 1vw;
+    font-size: 0.7vw;
     font-family: 'Arial';
     font-weight: bold;
     text-align: center;
     float: left;
     cursor: pointer;
     transition: 0.3s;
+    pointer-events: all;
 }
 
 p:hover {
     margin-bottom: 1.89vw;
     color: rgb(0, 255, 0);
-    font-size: 1.1vw;
+    font-size: 0.8vw;
 }
 
 .invalid{
-    color: red;
-    font-size: 1vw;
-    font-weight: lighter;
+    color:rgb(0, 255, 0);
+    font-size: 0.8vw;
+    font-weight: bolder;
     cursor: crosshair;
 }
 .invalid:hover{
-    color: red;
-    font-size: 1vw;
-    font-weight: lighter;
+    color:rgb(0, 255, 0);
+    font-size: 0.8vw;
+    font-weight: bolder;
     cursor: crosshair;
 }
 .invalid.live{
