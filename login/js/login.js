@@ -11,10 +11,6 @@ const btn_login = document.querySelector(".btn_login");
 const getted = document.querySelector(".getted");
 
 const invalid = document.querySelector(".invalid");
-//SevenGreenID
-let sevengreenID = [];
-sevengreenID[0] = "6385776502";
-sevengreenID[1] = "9698758994";
 
 function getdata() {
     for (let i = 0; i <= sevengreenID.length; i++) {
@@ -48,18 +44,5 @@ function resetloginbutton()
 }
 
 function process() {
-    const username = login_username.value;
-    const password = login_password.value;
-
-    if(login_sevengreenid.value == "6385776502")
-    {
-        if(username == "ajaysaagar" && password == "2024")
-        {
-            window.location = "main.html";
-        }
-        else
-        {
-            btn_login.innerHTML = "INVALID User or password";
-        }
-    }
+    database();
 }

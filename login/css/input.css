@@ -49,6 +49,7 @@ select {
     border-style: solid;
     border-color: gray;
     border-width: 0.01vw;
+    pointer-events: all;
     float: left;
 }
 
