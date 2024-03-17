@@ -46,10 +46,11 @@
         <div class="area">
             <div class="login live">
                 <h1>Login</h1>
-                <input onclick="gettedtofindid();" class="login_sevengreenid" type="text" placeholder="SevenGreenID">
+                <input onclick="gettedtofindid();" class="login_sevengreenid" type="sevengreenid"
+                    placeholder="SevenGreenID">
                 <div class="getted">
-                    <input onclick="resetloginbutton();" class="login_username" type="text" placeholder="username">
-                    <input onclick="resetloginbutton();" class="login_password" type="text" placeholder="password">
+                    <input onclick="resetloginbutton();" class="login_username" type="username" placeholder="username">
+                    <input onclick="resetloginbutton();" class="login_password" type="password" placeholder="password">
                 </div>
                 <button onclick="getdata();" data-id="login" class="btn_findid live">FIND-ID</button>
                 <button onclick="process();" data-id="login" class="btn_login">Login</button>
@@ -59,11 +60,12 @@
             <div class="register">
                 <form action="https://formsubmit.co/sevengreenstudio@gmail.com" method="POST">
                     <h1>Register</h1>
-                    <input onclick="checkexistance();" class="sevengreenid_field_register" type="sevengreenid" name="SevenGreenID" type="text"
-                        placeholder="sevengreenid" required>
-                    <input onclick="checkexistance();" type="username" name="username" type="text" placeholder="username" required>
-                    <input onclick="checkexistance();" type="born" name="Birth Date" type="text" placeholder="Birth Date (dd/mm/yyyy)" required>
-                    <input onclick="checkexistance();" type="email" name="E-Mail" type="text" placeholder="E-mail" required>
+                    <input onclick="checkexistance();" class="sevengreenid_field_register" type="sevengreenid"
+                        name="SevenGreenID" type="text" placeholder="sevengreenid" required>
+                    <input onclick="checkexistance();" type="username" name="username" type="text"
+                        placeholder="username" required>
+                    <input onclick="checkexistance();" type="email" name="E-Mail" type="text" placeholder="E-mail"
+                        required>
                     <select type="country" name="Country" id="country">
                         <option value="Country">Country</option>
                         <option value="INDIA">INDIA</option>
@@ -73,7 +75,10 @@
                         <option value="Russia">Russia</option>
                         <option value="China">China</option>
                     </select>
-                    <input onclick="checkexistance();" type="password" name="Password" type="text" placeholder="password" required>
+                    <input onclick="checkexistance();" type="password" name="Password" type="text"
+                        placeholder="password" required>
+                    <input onclick="checkexistance();" type="password" name="Password" type="text"
+                        placeholder="confirm password" required>
                     <button type="submit" data-id="register" class="btn">Register</button>
                     <p data-id="tologin">Login SevenGreenID</p>
                 </form>

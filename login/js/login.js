@@ -38,8 +38,7 @@ function gettedtofindid() {
     }
 }
 
-function resetloginbutton()
-{
+function resetloginbutton() {
     btn_login.innerHTML = "Login";
 }
 
