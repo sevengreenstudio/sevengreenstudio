@@ -5,7 +5,7 @@ function database() {
     const password = login_password.value;
 
     //SevenGreenID
-    if (sevengreenid == "1111111111") {
+    if (sevengreenid == "0123456789") {
         if (username == "ajaysaagar" && password == "01032022") {
             btn_login.innerHTML = "Loading...";
             window.location = "main.html";
